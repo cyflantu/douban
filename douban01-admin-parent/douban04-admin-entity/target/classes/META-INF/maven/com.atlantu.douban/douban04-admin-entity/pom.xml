@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.atlantu.douban</groupId>
+		<artifactId>douban01-admin-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<packaging>pom</packaging>
+	</parent>
+	<artifactId>douban04-admin-entity</artifactId>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-orm</artifactId>
+	</dependency>
+</project>
